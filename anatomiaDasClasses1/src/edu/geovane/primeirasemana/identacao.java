@@ -1,3 +1,4 @@
+package edu.geovane.primeirasemana;
 //manter o código organizado como o exemplo abaixo
 public class identacao {
     public static void main(String[] args){
