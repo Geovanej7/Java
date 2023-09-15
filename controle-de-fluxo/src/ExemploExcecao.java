@@ -28,7 +28,7 @@ public class ExemploExcecao {
     scanner.close();
     }
     catch (InputMismatchException e){
-        System.out.println("Os campos idade e altura devem ser numéricos");
+        System.err.println("Os campos idade e altura devem ser numéricos");
     }
    }
 
