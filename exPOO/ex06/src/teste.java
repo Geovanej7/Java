@@ -11,7 +11,7 @@ public class teste {
         System.out.println("Digite o ano de fabricação:");
         Carro1.anoFabricação = teclado.nextInt();
         System.out.println("Digite o valor de venda:");
-        Carro1.valorVenda = teclado.nextInt();
+        Carro1.valorVenda = teclado.nextDouble();
 
         Carro Carro2 = new Carro();
         System.out.println("carro2: digite a placa:");
