@@ -1,4 +1,5 @@
 public class Cliente {
+  //colocar em javabeans
   String nomeCompleto;
   String cpf;
   String email;
@@ -8,9 +9,8 @@ public class Cliente {
 
 
   public String imprimirDadosCliente(){
- System.out.println("CPF: " + cpf + " Nome: " + nomeCompleto + "  E-mail: " + email);
-
- return dados ;
+    
+ return  "CPF: " + cpf + " Nome: " + nomeCompleto + "  E-mail: " + email);
 
 }
 }

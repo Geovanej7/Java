@@ -2,12 +2,12 @@ public class Carro {
     String placa;
     String marca;
     int anoFabricação;
-    int valorVenda;
+    double valorVenda;
 
 public Carro(){
 
 }
-public Carro(String placa, String marca, int anoFabricação, int valorVenda){
+public Carro(String placa, String marca, int anoFabricação, double valorVenda){
 
 this.placa = placa;
 this.marca = marca;
